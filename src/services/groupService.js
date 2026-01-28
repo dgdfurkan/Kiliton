@@ -18,9 +18,10 @@ export const createGroup = async (groupName, password, user) => {
   }
 
   // Create the group
+  // Şifre hash'lenmeden kaydediliyor (Müşteri talebi)
   await setDoc(groupRef, {
     name: groupName,
-    password: password, // In a real app, hash this! keeping it simple as requested.
+    password: password,
     adminId: user.uid,
     createdAt: new Date(),
     members: [user.uid] // Optional: keep list of member IDs here for easy counting
