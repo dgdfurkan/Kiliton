@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 // Lütfen Firebase Console -> Project Settings -> General -> Your Apps kısmından
 // yapılandırma kodunu alıp aşağıya yapıştırın.
 const firebaseConfig = {
-  apiKey: "API_KEY_BURAYA",
-  authDomain: "PROJE_ID.firebaseapp.com",
-  projectId: "PROJE_ID",
-  storageBucket: "PROJE_ID.firebasestorage.app",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyAHhxpM8OWxYf0_HU4sgiBDw7JP15OQsm4",
+  authDomain: "kiliton.firebaseapp.com",
+  projectId: "kiliton",
+  storageBucket: "kiliton.firebasestorage.app",
+  messagingSenderId: "46796374839",
+  appId: "1:46796374839:web:d64ebb717649be671890b2"
 };
 
 // Initialize Firebase
